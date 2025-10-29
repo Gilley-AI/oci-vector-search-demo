@@ -1,0 +1,2 @@
+Oracle Cloud Infrastructure (OCI) provides compute, storage, networking, and database services.
+It’s designed for high performance, security, and cost efficiency for modern workloads.

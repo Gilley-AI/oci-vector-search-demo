@@ -1,0 +1,2 @@
+Good practices: normalize embeddings for cosine distance, keep chunks concise, and log queries for evaluation.
+Use metadata to filter by document type or owner.

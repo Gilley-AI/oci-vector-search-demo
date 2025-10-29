@@ -1,0 +1,2 @@
+Vector Search lets you store embeddings for documents and retrieve semantically similar content using distance functions.
+Typical use: retrieval augmented generation (RAG) and intelligent search over knowledge bases.

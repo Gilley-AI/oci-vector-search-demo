@@ -1,0 +1,18 @@
+# Core Oracle database driver
+oracledb>=2.3.0
+
+# Environment variable loading
+python-dotenv>=1.0.1
+
+# Local embeddings model
+sentence-transformers>=3.2.0
+
+# Math helpers for embeddings and vector search
+scikit-learn>=1.5.2
+numpy>=1.26.4
+
+# Simple UI framework (optional)
+streamlit>=1.40.0
+
+# Oracle Cloud SDK (optional — needed only if you enable Generative AI)
+oci>=2.139.0
