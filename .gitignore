@@ -1,0 +1,30 @@
+# Virtual envs
+venv/
+*/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets / env
+.env
+
+# Editors / IDE
+.vscode/
+.theia/
+
+# System clutter
+.DS_Store
+.cache/
+.config/
+
+# Credentials / wallets (DO NOT COMMIT)
+wallet/
+Wallet_AIDEMO.zip
+
+# Optional: ignore raw data if sensitive/large
+# data/
+wallet/
+Wallet_AIDEMO.zip
