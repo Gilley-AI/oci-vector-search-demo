@@ -1,30 +1,20 @@
-# Virtual envs
-venv/
-*/venv/
-
-# Python cache
+# Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Secrets / env
+# Virtual envs
+venv/
+**/venv/
+
+# Logs
+*.log
+oci-knowledge-assistant/app/streamlit.log
+
+# Local env/secrets
 .env
+**/.env
+wallet/
+wallet.zip
 
-# Editors / IDE
-.vscode/
-.theia/
-
-# System clutter
+# OS junk
 .DS_Store
-.cache/
-.config/
-
-# Credentials / wallets (DO NOT COMMIT)
-wallet/
-Wallet_AIDEMO.zip
-
-# Optional: ignore raw data if sensitive/large
-# data/
-wallet/
-Wallet_AIDEMO.zip
