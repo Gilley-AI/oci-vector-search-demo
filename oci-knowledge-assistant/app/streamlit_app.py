@@ -27,9 +27,6 @@ def get_db_params():
         "user": DB_USER,
         "password": DB_PASSWORD,
         "dsn": DB_DSN,
-        "config_dir": DB_WALLET_DIR,
-        "wallet_location": DB_WALLET_DIR,
-        "wallet_password": DB_WALLET_PASSWORD
     }
 
 def connect():
@@ -44,7 +41,6 @@ with st.sidebar:
     top_k = st.slider("Top-K passages", 1, 5, 3)
     show_context = st.checkbox("Show retrieved context", True)
     st.markdown("**DB alias:** " + DB_DSN)
-    st.markdown("**Wallet dir:** " + DB_WALLET_DIR)
 
 q = st.text_input("Ask a question", "How does vector search work on Oracle?")
 go = st.button("Search")
