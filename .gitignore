@@ -18,3 +18,4 @@ wallet.zip
 
 # OS junk
 .DS_Store
+oci-knowledge-assistant/app/.env
