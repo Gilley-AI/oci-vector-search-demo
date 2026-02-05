@@ -9,8 +9,8 @@ load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 DB_USER = os.environ["DB_USER"]
 DB_PASSWORD = os.environ["DB_PASSWORD"]
 DB_DSN = os.environ["DB_DSN"]  # e.g., AIDEMO_tp (TNS alias from wallet)
-DB_WALLET_DIR = os.path.expanduser(os.environ.get("DB_WALLET_DIR", "~/wallet"))
-DB_WALLET_PASSWORD = os.environ.get("DB_WALLET_PASSWORD")
+# DB_WALLET_DIR = os.path.expanduser(os.environ.get("DB_WALLET_DIR", "~/wallet"))
+# DB_WALLET_PASSWORD = os.environ.get("DB_WALLET_PASSWORD")
 EMBED_MODEL = os.environ.get("EMBED_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
 
 # --- App title ---

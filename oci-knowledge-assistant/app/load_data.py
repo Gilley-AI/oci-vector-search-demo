@@ -13,8 +13,8 @@ DB_DSN = os.environ["DB_DSN"]
 EMBED_MODEL = os.environ.get("EMBED_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
 
 # Wallet settings for mTLS
-DB_WALLET_DIR = os.environ.get("DB_WALLET_DIR", os.path.expanduser("~/wallet"))
-DB_WALLET_PASSWORD = os.environ.get("DB_WALLET_PASSWORD")
+# DB_WALLET_DIR = os.environ.get("DB_WALLET_DIR", os.path.expanduser("~/wallet"))
+# DB_WALLET_PASSWORD = os.environ.get("DB_WALLET_PASSWORD")
 
 # Initialize model
 print("Loading embedding model:", EMBED_MODEL)
@@ -27,9 +27,6 @@ conn = oracledb.connect(
     user=DB_USER,
     password=DB_PASSWORD,
     dsn=DB_DSN,  # e.g., AIDEMO_tp
-    config_dir=DB_WALLET_DIR,
-    wallet_location=DB_WALLET_DIR,
-    wallet_password=DB_WALLET_PASSWORD
 )
 cur = conn.cursor()
 
