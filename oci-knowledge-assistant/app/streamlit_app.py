@@ -40,8 +40,7 @@ with st.sidebar:
     st.header("Settings")
     top_k = st.slider("Top-K passages", 1, 5, 3)
     show_context = st.checkbox("Show retrieved context", True)
-    st.markdown("**DB alias:** " + DB_DSN)
-
+    st.markdown("**DB:** Connected via TLS")
 q = st.text_input("Ask a question", "How does vector search work on Oracle?")
 go = st.button("Search")
 
